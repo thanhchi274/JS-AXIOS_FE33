@@ -2,6 +2,9 @@ function getEle(id){
     return document.getElementById(id);
 }
 var nguoiDungService  =new NguoiDungService();
+function themNguoiDungTest(){
+    console.log("Thêm người dùng");
+}
 getListUser();
 //200 là thành công
 //500:
